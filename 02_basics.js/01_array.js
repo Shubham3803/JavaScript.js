@@ -45,4 +45,4 @@ let name0 = "ankit"
 console.log( typeof name0);
 
 let name04 = "ankit"
-console.log( typeof name04);
+console.log( typeof name04); 
