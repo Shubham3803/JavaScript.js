@@ -5,12 +5,14 @@
 // Object.create
 
 const mysymble =Symbol("key1")
+const mysymble2 = Symbol("shubham24")
 
 const Jsuder ={
   name: "shubham",
   "full name": "shubham Bhardwaj",
   [mysymble]: "key1",
   age:24,
+  [mysymble2]: "shubham24",
   location:"ghaziabad",
   email:"shbham@google.com",
   isLoggedIn: false,
@@ -38,3 +40,5 @@ Jsuder.greeting2 = function(){
 
 console.log(Jsuder.greeting());
 console.log(Jsuder.greeting2());
+
+console.log(Jsuder.isLoggedIn);
