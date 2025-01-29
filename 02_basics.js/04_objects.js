@@ -51,10 +51,41 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+// Object de-structure and JSON API 
+
+const course ={
+  coursename :"js Hindi",
+  price: "999",
+  courseInstructure: "Shubham"
+}
+
+// course.courseInstructure
+
+const{courseInstructure:instructure} = course
+
+console.log(instructure);
+
+const navbar =() => {
+
+}
+navbar(comapany = "shubham")
+
+// {
+//   "name":"shubham",
+//   "coursename": "Js hindi",
+//   "price": "free" 
+// }
+
+[
+  {},
+  {},
+  {},
+]
