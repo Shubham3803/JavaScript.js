@@ -25,10 +25,22 @@
   console.log(parent.children);
   console.log(parent.children[1].innerHtml);
   
-  for (let i = 0; i < parent.children; i++) {
-   console.log(children[i].innerHtml);
+  // for (let i = 0; i < parent.children; i++) {
+  //  console.log(children[i].innerHtml);
     
-  }
+  // }
+
+  parent.children[1].style.color = "orange"
+  // console.log(parent.firstElementChild);
+  // console.log(parent.lastElementChild);
+
+  const dayOne = document.querySelector('.day')
+  // console.log(dayOne);
+  // console.log(dayOne.parentElement);
+  // console.log(dayOne.nextElementSibling);
+  
+  console.log("nodes", parent.childNodes);
+  
 </script>
 
 </html>
